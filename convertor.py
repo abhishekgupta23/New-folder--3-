@@ -36,6 +36,7 @@ if a:
         if selected_box == i:
            q=s(g,p)
            blob = TextBlob(a)
+           blob.detect_language()
            te = blob.translate(to=q)
            st.write("translated text :-")
            st.write(te)
