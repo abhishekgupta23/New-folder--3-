@@ -1,4 +1,5 @@
 import streamlit as st
+import regex._regex as _regex
 from textblob import TextBlob
 import pandas as pd
 d = 0
